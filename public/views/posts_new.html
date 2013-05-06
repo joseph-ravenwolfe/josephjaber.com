@@ -1,0 +1,31 @@
+<h1>Create Post</h1>
+
+<div>
+  <form ng-submit="createPost()">
+    <div>
+      <label for="post[title]">Title</label><br>
+      <input name="post[title]" type="text" ng-model="newPost.title">
+    </div>
+    <br>
+    <div>
+      <label for="post[date]">Date</label><br>
+      <input name="post[date]" type="date" ng-model="newPost.date">
+    </div>
+    <br>
+    <div>
+      <label for="post[body]">Body</label><br>
+      <textarea name="post[body]" ng-model="newPost.body"></textarea>
+    </div>
+    <div>
+      <label for="post[source]">Source</label><br>
+      <input name="post[source]" type="text" ng-model="newPost.source">
+    </div>
+    <br>
+    <div>
+      <label for="post[href]">Link</label><br>
+      <input name="post[href]" type="text" ng-model="newPost.href">
+    </div>
+    
+    <input type="submit" value="Create Post">
+  </form>
+  </div>

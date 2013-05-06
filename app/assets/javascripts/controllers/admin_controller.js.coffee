@@ -1,0 +1,1 @@
+# @AdminController = ($scope, $resource) ->

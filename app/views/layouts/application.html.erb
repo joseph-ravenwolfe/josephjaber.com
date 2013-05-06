@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html ng-app="Blog">
+  <head>
+    <title>Joseph Jaber</title>
+    <%= stylesheet_link_tag    "application", media: "all" %>
+    <%= javascript_include_tag "application" %>
+    <%= csrf_meta_tags %>
+  </head>
+  <body data-ng-view="">
+    <header class="main">
+      <a class="about" href="#">About</a>
+      <figure class="anchor"></figure>
+      <a class="articles" href="/">Articles</a>
+    </header>
+    <section class="main">
+      <article class="blog">
+        <h1>RailsConf 2013 Talks</h1>
+        <time datetime="2013-05-05">May 5th 2013</time>
+        <ul class="tracklist">
+          <li>
+            <strong><a href="http://www.justin.tv/confreaks/c/2246813">Keynote: A♭</a></strong>
+            <em>by <a href="https://twitter.com/tenderlove">Aaron Patterson</a></em>
+            <div class="links">
+              <a class="video" href="http://www.justin.tv/confreaks/c/2246813">Video</a>
+              <a class="slides disabled" href="#" title="Slides Not Available">Slides</a>
+            </div>
+          </li>
+        </ul>
+      </article>
+    </section>
+  </body>
+</html>
