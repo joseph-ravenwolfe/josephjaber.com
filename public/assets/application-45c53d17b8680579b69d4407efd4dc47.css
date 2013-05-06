@@ -22,6 +22,9 @@ html, body {
   border: 0;
   font-family: 'Proxima Nova Light'; }
 
+a, a:visited {
+  color: #444; }
+
 header.main {
   margin: 0;
   padding: 0;
