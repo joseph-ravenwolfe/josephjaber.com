@@ -100,17 +100,19 @@ section.main {
         text-decoration: none; }
       section.main ul.tracklist li strong a:hover {
         text-decoration: underline; }
-    section.main ul.tracklist li em {
+    section.main ul.tracklist li > em {
       font-size: 16px;
       display: inline-block;
       clear: left;
       width: 550px;
       margin-bottom: 15px; }
-      section.main ul.tracklist li em a {
+      section.main ul.tracklist li > em a {
         color: #444;
         text-decoration: none; }
-      section.main ul.tracklist li em a:hover {
+      section.main ul.tracklist li > em a:hover {
         text-decoration: underline; }
+    section.main ul.tracklist li em {
+      font-weight: normal; }
     section.main ul.tracklist li .links {
       position: absolute;
       top: 0;
