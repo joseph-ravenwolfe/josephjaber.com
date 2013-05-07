@@ -120,7 +120,7 @@ section.main {
       }
     }
     
-    li em {
+    li > em {
       font-size: 16px;
       display: inline-block;
       clear: left;
@@ -135,6 +135,10 @@ section.main {
       a:hover {
         text-decoration: underline;
       }
+    }
+    
+    li em {
+      font-weight: normal;
     }
     
     li .links {
