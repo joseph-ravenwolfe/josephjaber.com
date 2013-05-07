@@ -137,3 +137,6 @@ section.main {
         background-position: top center; }
       section.main ul.tracklist li .links .disabled:hover {
         cursor: not-allowed; }
+
+.disabled:hover {
+  cursor: not-allowed; }
