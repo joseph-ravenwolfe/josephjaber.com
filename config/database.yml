@@ -11,20 +11,9 @@
 development:
   adapter: postgresql
   encoding: utf8
-  database: blog_development
   pool: 5
-
-# Warning: The database defined as "test" will be erased and
-# re-generated from your development database when you run "rake".
-# Do not set this db to the same as development or production.
-test:
-  adapter: postgresql
-  encoding: utf8
-  database: blog_test
-  pool: 5
-
-production:
-  adapter: postgresql
-  encoding: utf8
-  database: blog_production
-  pool: 5
+  database: <%= ENV['JOSEPHJABER_DEV_DATABASE'] %>
+  username: <%= ENV['JOSEPHJABER_DEV_USER'] %>
+  password: <%= ENV['JOSEPHJABER_DEV_PASSWORD'] %>
+  host: <%= ENV['JOSEPHJABER_DEV_HOST'] %>
+  port: <%= ENV['JOSEPHJABER_DEV_PORT'] %>
